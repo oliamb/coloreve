@@ -4,15 +4,21 @@ var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
+var production = process.env['NODE_ENV'] === 'production';
 
 module.exports = {
-  entry: [
-    'webpack/hot/dev-server',
-    'webpack-dev-server/client?http://localhost:8080',
-    path.resolve(__dirname, 'app/index.jsx')
-  ],
+  devtool: (production ? 'source-map' : 'eval'),
+  entry: (function () {
+    var entries = [
+      path.resolve(__dirname, 'app/index.jsx')
+    ];
+    if (!production) {
+      entries.push('webpack-dev-server/client?http://localhost:8080', 'webpack/hot/dev-server');
+    }
+    return entries;
+  })(),
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
   },
   module: {

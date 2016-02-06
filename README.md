@@ -2,6 +2,10 @@
 
 A color book website for children.
 
+# Contributions
+
+This project is at a very early stage so I don't expect contributions. But if you were planning to start the same application, you are welcome as a co-developer. Open an issue to contact me.
+
 # Development
 
 ## OSS Projects
