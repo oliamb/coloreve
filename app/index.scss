@@ -1,4 +1,8 @@
 @import "normalize";
+@import url(https://fonts.googleapis.com/css?family=Fontdiner+Swanky);
+
+$title-font-stack: "Fontdiner Swanky", serif;
+
 
 html,
 body,
@@ -12,4 +16,8 @@ body,
 #app {
   background: rgba(255, 255, 0, 0.6);
   display: inline-block;
+}
+
+h1 {
+  font-family: $title-font-stack;
 }
