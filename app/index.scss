@@ -1,0 +1,15 @@
+@import "normalize";
+
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#app {
+  background: rgba(255, 255, 0, 0.6);
+  display: inline-block;
+}
