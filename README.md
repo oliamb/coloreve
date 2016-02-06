@@ -35,10 +35,10 @@ A list of OSS projects that sustain this application development
   - Hosted on [Github](https://github.com/oliamb/coloreve)
 
 ### Work in progress
+- Display a svg drawing in a canvas
 
 ### Backlog
 
-- Display a svg drawing in a canvas
 - Click to set the fill color of the current surface
 
 
