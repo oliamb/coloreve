@@ -33,9 +33,9 @@ A list of OSS projects that sustain this application development
   - Display a web page with react and a colored background
   - Deployed to [Heroku](https://boiling-oasis-35493.herokuapp.com/)
   - Hosted on [Github](https://github.com/oliamb/coloreve)
+  - Display a svg drawing in a canvas
 
 ### Work in progress
-- Display a svg drawing in a canvas
 
 ### Backlog
 
