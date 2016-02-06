@@ -2,6 +2,10 @@
 
 A color book website for children.
 
+Prototype demo: https://boiling-oasis-35493.herokuapp.com/
+Github repository: https://github.com/oliamb/coloreve
+
+
 # Contributions
 
 This project is at a very early stage so I don't expect contributions. But if you were planning to start the same application, you are welcome as a co-developer. Open an issue to contact me.
@@ -27,16 +31,16 @@ A list of OSS projects that sustain this application development
 
 - **Feature:** bootstrap
   - Display a web page with react and a colored background
+  - Deployed to [Heroku](https://boiling-oasis-35493.herokuapp.com/)
+  - Hosted on [Github](https://github.com/oliamb/coloreve)
 
 ### Work in progress
-
-- Deployed to a development server
 
 ### Backlog
 
 - Display a svg drawing in a canvas
 - Click to set the fill color of the current surface
-- Hosted on Github
+
 
 ## Logbook
 
