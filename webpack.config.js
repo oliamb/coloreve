@@ -1,6 +1,7 @@
 /* Copyright (c) 2016 Olivier Amblet */
 
 var path = require('path');
+var fs = require('fs');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
@@ -37,7 +38,8 @@ module.exports = {
   sassLoader: {
     includePaths: [
       path.resolve(__dirname, 'node_modules', 'normalize-scss', 'sass'),
-      path.resolve(__dirname, 'node_modules', 'normalize-scss', 'node_modules', 'support-for', 'sass')
+      path.resolve(__dirname, 'node_modules', 'normalize-scss', 'node_modules', 'support-for', 'sass'),
+      path.resolve(__dirname, 'node_modules', 'support-for', 'sass')
     ]
   }
 };
