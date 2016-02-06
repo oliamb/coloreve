@@ -40,6 +40,11 @@ A list of OSS projects that sustain this application development
 ### Backlog
 
 - Click to set the fill color of the current surface
+- Draw two shapes that can be filled separately
+- Import a SVG drawing from an external file
+- Display a proper viewport to fit most screen size
+- Display a color swatch
+- Ability to change the color and paint different area in different colors
 
 
 ## Logbook
