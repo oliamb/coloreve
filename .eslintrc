@@ -7,3 +7,5 @@
   ecmaFeatures:
     jsx: true
     modules: true
+  rules:
+    no-console: 1
