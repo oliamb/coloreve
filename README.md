@@ -12,6 +12,9 @@ This project is at a very early stage so I don't expect contributions. But if yo
 
 # Development
 
+Technically, the web app display a SVG drawing and accept to change the fill
+attribute of any element with a `shape` class.
+
 ## OSS Projects
 
 A list of OSS projects that sustain this application development
@@ -33,13 +36,15 @@ A list of OSS projects that sustain this application development
   - Display a web page with react and a colored background
   - Deployed to [Heroku](https://boiling-oasis-35493.herokuapp.com/)
   - Hosted on [Github](https://github.com/oliamb/coloreve)
+- **Feature:** display a SVG drawing
   - Display a svg drawing in a canvas
+- **Feature:** colorize
+  - Randomly set the fill color of the drawing shape
 
 ### Work in progress
 
 ### Backlog
 
-- Click to set the fill color of the current surface
 - Draw two shapes that can be filled separately
 - Import a SVG drawing from an external file
 - Display a proper viewport to fit most screen size
