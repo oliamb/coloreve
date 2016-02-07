@@ -51,6 +51,8 @@ A list of OSS projects that sustain this application development
 - Save/Load automatically the current colors
 - A reset button
 - Import a SVG drawing from an external file
+- Cleanup SVG file to only keep the important attributes
+- Apply common styles to the SVG (black stroke of even size)
 - Display a proper viewport to fit most screen size
 - Display a color swatch
 - Ability to change the color and paint different area in different colors
