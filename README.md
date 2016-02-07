@@ -2,6 +2,8 @@
 
 A color book website for children.
 
+Click on the various area to randomly assign a color.
+
 Prototype demo: https://boiling-oasis-35493.herokuapp.com/
 Github repository: https://github.com/oliamb/coloreve
 
@@ -40,12 +42,14 @@ A list of OSS projects that sustain this application development
   - Display a svg drawing in a canvas
 - **Feature:** colorize
   - Randomly set the fill color of the drawing shape
+  - Each shape can be colored
 
 ### Work in progress
 
 ### Backlog
 
-- Draw two shapes that can be filled separately
+- Save/Load automatically the current colors
+- A reset button
 - Import a SVG drawing from an external file
 - Display a proper viewport to fit most screen size
 - Display a color swatch
