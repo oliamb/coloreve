@@ -48,6 +48,9 @@ A list of OSS projects that sustain this application development
 
 ### Backlog
 
+- Add an icon to add to favorite
+- Remove all colors button (refresh is not for kids)
+- Save the drawing in a storage
 - Save/Load automatically the current colors
 - A reset button
 - Import a SVG drawing from an external file
